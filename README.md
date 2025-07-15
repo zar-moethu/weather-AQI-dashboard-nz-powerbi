@@ -62,22 +62,24 @@ The final result is a single-page interactive dashboard showing:
 - Dynamic weather icons that update with real-time data
 - Color-coded AQI section based on thresholds (e.g., Green → Red)
 - Sunrise & Sunset displayed in a minimalist panel alongside location name
-- Used slicers to toggle between cities and daily/hourly forecasts
+- Slicers to toggle between cities and daily/hourly forecasts
 
 <img width="1430" height="829" alt="image" src="https://github.com/user-attachments/assets/e62a8af9-727d-4786-a7fc-7017ac29853d" />
 
 
 📂 **Project Files**
-The complete project, including the final Excel dashboard, the framework for creating PivotTables and PivotCharts, KPI metric calculations and the cleaned data source can be found in this repository.
 
-- [`Dashboard & Dataset.xlsx`](https://github.com/zar-moethu/NZ-Ecommerce-Excel-Dashboard/blob/Dashboard/Dashboard%20%26%20Dataset.xlsx) – Interactive Excel dashboard and cleaned dataset  
-- [`Dashboard Overview.pdf`](https://github.com/zar-moethu/weather-AQI-dashboard-nz-powerbi) – Visual preview of the dashboard
+- *Power BI Dashboard File*:  
+  [WeatherDashboard.pbix](https://github.com/zar-moethu/weather-AQI-dashboard-nz-powerbi/blob/main/WeatherDashboard.pbix)
+
+- *Dashboard Overview (PDF Preview)*:  
+  [Dashboard Overview (PDF)](https://github.com/zar-moethu/weather-AQI-dashboard-nz-powerbi/blob/main/Dashboard%20Overview.pdf)
+
 
 - **How to use this project:**
-I believe every analyst’s journey is strengthened by an open mindset and a willingness to receive feedback. I welcome your thoughts, suggestions and collaboration on this project.
 Data analysis is an ongoing process, and continuous improvement and innovation are key to long-term success.
-
-Feel free to download, explore, and adapt the dashboard for your own analysis or business needs. If you have feedback or want to collaborate, please reach out.
+I believe every analyst’s journey is strengthened by an open mindset and a willingness to receive feedback. I welcome your thoughts, suggestions and collaboration on this project.
+Feel free to download, explore, and adapt the dashboard for your own analysis or business needs. You can customize visual styles or connect to your own API key in Power BI Query Editor.
 
 
 
