@@ -70,13 +70,16 @@ The final result is a single-page interactive dashboard showing:
 📂 **Project Files**
 
 - *Power BI Dashboard File*:  
-  [WeatherDashboard.pbix](https://github.com/zar-moethu/weather-AQI-dashboard-nz-powerbi/blob/main/WeatherDashboard.pbix)
+  [WeatherDashboard.pbix](https://github.com/zar-moethu/weather-AQI-dashboard-nz-powerbi/blob/main/WeatherReport%20(VF).pbix)
 
 - *Dashboard Overview (PDF Preview)*:  
   [Dashboard Overview (PDF)](https://github.com/zar-moethu/weather-AQI-dashboard-nz-powerbi/blob/main/Dashboard%20Overview.pdf)
 
 
 - **How to use this project:**
+- Refresh the dataset to pull latest API data (internet required)
+- Interact with slicers to filter by city and explore trends
+
 Data analysis is an ongoing process, and continuous improvement and innovation are key to long-term success.
 I believe every analyst’s journey is strengthened by an open mindset and a willingness to receive feedback. I welcome your thoughts, suggestions and collaboration on this project.
 Feel free to download, explore, and adapt the dashboard for your own analysis or business needs. You can customize visual styles or connect to your own API key in Power BI Query Editor.
