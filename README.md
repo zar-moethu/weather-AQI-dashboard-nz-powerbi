@@ -71,7 +71,7 @@ The final result is a single-page interactive dashboard showing:
 The complete project, including the final Excel dashboard, the framework for creating PivotTables and PivotCharts, KPI metric calculations and the cleaned data source can be found in this repository.
 
 - [`Dashboard & Dataset.xlsx`](https://github.com/zar-moethu/NZ-Ecommerce-Excel-Dashboard/blob/Dashboard/Dashboard%20%26%20Dataset.xlsx) – Interactive Excel dashboard and cleaned dataset  
-- [`Dashboard Overview.png`](https://github.com/zar-moethu/NZ-Ecommerce-Excel-Dashboard/blob/Dashboard/Dashboard%20Overview.png) – Visual preview of the dashboard
+- [`Dashboard Overview.pdf`](https://github.com/zar-moethu/weather-AQI-dashboard-nz-powerbi) – Visual preview of the dashboard
 
 - **How to use this project:**
 I believe every analyst’s journey is strengthened by an open mindset and a willingness to receive feedback. I welcome your thoughts, suggestions and collaboration on this project.
