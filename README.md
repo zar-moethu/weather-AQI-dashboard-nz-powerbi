@@ -61,7 +61,7 @@ The final result is a single-page interactive dashboard showing:
 - 7-day forecast visualized using line and column charts
 - Dynamic weather icons that update with real-time data
 - Color-coded AQI section based on thresholds (e.g., Green → Red)
-- Sunrise & Sunset displayed in a minimalist panel alongside location name
+- Sunrise & Sunset shown alongside the 7-day forecast to help users understand the timing of daylight in relation to upcoming temperature patterns
 - Slicers to toggle between cities and daily/hourly forecasts
 
 <img width="1430" height="829" alt="image" src="https://github.com/user-attachments/assets/e62a8af9-727d-4786-a7fc-7017ac29853d" />
@@ -69,7 +69,7 @@ The final result is a single-page interactive dashboard showing:
 
 📂 **Project Files**
 
-- *Power BI Dashboard File*:  
+- *Power BI Dashboard File* (Click on View Raw):  
   [WeatherDashboard.pbix](https://github.com/zar-moethu/weather-AQI-dashboard-nz-powerbi/blob/main/WeatherReport%20(VF).pbix)
 
 - *Dashboard Overview (PDF Preview)*:  
@@ -77,13 +77,10 @@ The final result is a single-page interactive dashboard showing:
 
 
 - **How to use this project:**
-- Refresh the dataset to pull latest API data (internet required)
-- Interact with slicers to filter by city and explore trends
-
-Data analysis is an ongoing process, and continuous improvement and innovation are key to long-term success.
-I believe every analyst’s journey is strengthened by an open mindset and a willingness to receive feedback. I welcome your thoughts, suggestions and collaboration on this project.
-Feel free to download, explore, and adapt the dashboard for your own analysis or business needs. You can customize visual styles or connect to your own API key in Power BI Query Editor.
-
+- Data analysis is an ongoing process and continuous improvement and innovation are key to long-term success. I believe every  analyst’s journey is strengthened by an open mindset and a willingness to receive feedback. I welcome your thoughts,  suggestions and collaboration on this project.
+- Feel free to download, explore, and adapt it to better understand how real-time data can be modeled and visualized in Power BI.
+  
+⚠️ Disclaimer: This dashboard is intended for visual learning and demonstration purposes only — not for business or operational use. 
 
 
 
