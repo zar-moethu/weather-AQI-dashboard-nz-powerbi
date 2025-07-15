@@ -5,17 +5,17 @@
 
 This project provides a real-time dashboard that captures both current conditions and 7-day forecast insights for major cities across New Zealand — including Auckland, Wellington, Christchurch, Tauranga, and Dunedin. Powered by live API integration and developed in Power BI, it visualizes key environmental metrics such as:
 
-🌡️ Temperature — with dynamic icons that change based on real-time conditions (e.g., fog, rain, cloud)
+- Temperature — with dynamic icons that change based on real-time conditions (e.g., fog, rain, cloud)
 
-💧 Humidity, 💨 Wind Speed, 🌫️ Visibility, Pressure, Feels Like, and UV Index (current)
+- Humidity,  Wind Speed, Visibility, Pressure, Feels Like, and UV Index (current)
 
-🏙️ Air Quality (current) — CO, NO₂, SO₂, O₃, PM10, and PM2.5 levels with color categories indicating pollutant thresholds
+- Air Quality (current) — CO, NO₂, SO₂, O₃, PM10, and PM2.5 levels with color categories indicating pollutant thresholds
 
-🌅 Sunrise & Sunset Times with a 7-day forecast overlay
+- Sunrise & Sunset Times with a 7-day forecast overlay
 
-☂️ Chance of Rain with daily breakdowns across the week
+- Chance of Rain with daily breakdowns across the week
 
-📈 7-Day Temperature Forecast Trends — temperature and condition breakdowns for each day
+- 7-Day Temperature Forecast Trend — temperature and condition breakdowns for each day
 
 🧠 **Business Understanding**
 Goal: Deliver a user-friendly dashboard showing live and forecasted weather + air quality for key New Zealand cities.
