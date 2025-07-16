@@ -1,4 +1,4 @@
-🌧️ Real-Time Weather & Air Quality Dashboard (Power BI) - Live Weather Monitoring Across New Zealand
+🌧️ Real-Time Weather & Air Quality Power BI Dashboard - Live Weather Monitoring Across New Zealand
 
 
 📍 Project Overview: The Framework for Insight
