@@ -3,7 +3,7 @@
 
 📍 Project Overview: The Framework for Insight
 
-This project provides a real-time dashboard that captures both current conditions and 7-day forecast insights for major cities across New Zealand — including Auckland, Wellington, Christchurch, Tauranga, and Dunedin. Powered by live API integration and developed in Power BI, it visualizes key environmental metrics such as:
+This project provides a real-time dashboard that captures both current conditions and 3-day forecast insights for major cities across New Zealand — including Auckland, Wellington, Christchurch, Tauranga, and Dunedin. Powered by live API integration and developed in Power BI, it visualizes key environmental metrics such as:
 
 - Temperature — with dynamic icons that change based on real-time conditions (e.g., fog, rain, cloud)
 
@@ -11,11 +11,11 @@ This project provides a real-time dashboard that captures both current condition
 
 - Air Quality (current) — CO, NO₂, SO₂, O₃, PM10, and PM2.5 levels with color categories indicating pollutant thresholds
 
-- Sunrise & Sunset Times with a 7-day forecast overlay
+- Sunrise & Sunset Times with a 3-day forecast overlay
 
 - Chance of Rain with daily breakdowns across the week
 
-- 7-Day Temperature Forecast Trend — temperature and condition breakdowns for each day
+- 3-Day Temperature Forecast Trend — temperature and condition breakdowns for each day
 
 🧠 **Business Understanding**
 Goal: Deliver a user-friendly dashboard showing live and forecasted weather + air quality for key New Zealand cities.
@@ -26,10 +26,13 @@ Core Feature: Real-time API integration and multi-city breakdown.
 
 **🔄 Data Pipeline: Real-Time ETL Process**
 
-🔹 *Extract* -  Pulled live data via API from: https://www.weatherapi.com/
-              - API returned data in JSON format
+🔹 *Extract* 
 
-🔹 *Transform* -After importing JSON into Power BI, cleaned and transformed the data by handling:
+- Pulled live data via API from: https://www.weatherapi.com/  
+- API returned data in JSON format
+
+🔹 *Transform* 
+- After importing JSON into Power BI, cleaned and transformed the data by handling:
 - Unit conversions (e.g., wind speed, pressure)
 - Null/missing values & duplicates
 - Date/time formatting
@@ -59,10 +62,10 @@ Built DAX measures for custom logic across visuals:
 The final result is a single-page interactive dashboard showing:
 
 - KPI cards for current metrics (temperature, humidity, UV index)
-- 7-day forecast visualized using line and column charts
+- 3-day forecast visualized using line and column charts
 - Dynamic weather icons that update with real-time data
 - Color-coded AQI section based on thresholds (e.g., Green → Red)
-- Sunrise & Sunset shown alongside the 7-day forecast to help users understand the timing of daylight in relation to upcoming
+- Sunrise & Sunset shown alongside the 3-day forecast to help users understand the timing of daylight in relation to upcoming
   temperature patterns
 - Slicers to toggle between cities and daily/hourly forecasts
 
@@ -71,22 +74,25 @@ The final result is a single-page interactive dashboard showing:
 
 📂 **Project Files**
 
-- *Power BI Dashboard File* (Click on View Raw):  
+- *Power BI Dashboard File* (Then, Click on View Raw):  
   [WeatherDashboard.pbix](https://github.com/zar-moethu/weather-AQI-dashboard-nz-powerbi/blob/main/WeatherReport%20(VF).pbix)
 - *Dashboard Overview (PDF Preview)*:  
   [Dashboard Overview (PDF)](https://github.com/zar-moethu/weather-AQI-dashboard-nz-powerbi/blob/main/Dashboard%20Overview.pdf)
 
 
-  **How to use this project:**
+🛠️ **How to use this project:**
 -  Refresh the Power BI dashbord file to pull the latest API data. This ensures you're working with real-time information.
 -  Data analysis is an ongoing process and continuous improvement and innovation are key to long-term success. I believe
    every  analyst’s journey is strengthened by an open mindset and a willingness to receive feedback. I welcome your
-   thoughts,  suggestions and collaboration on this project.
--  Feel free to download, explore, and adapt it to better understand how real-time data can be modeled and visualized in
-    Power BI.
+   thoughts, suggestions and collaboration on this project.
+-  Feel free to download, explore, and adapt it to better understand how real-time data can be modeled and visualized in Power BI.
   
-    ⚠️ Disclaimer: This dashboard is intended for visual learning and demonstration purposes only — not for business or
-    operational use. 
+⚠️ **Disclaimer:**
+
+- This dashboard is intended for visual learning and demonstration purposes only — not for business or operational use.  
+- This dashboard uses WeatherAPI’s free tier, which supports up to 3-day forecasts. For extended forecast capabilities beyond 3 days, a premium API subscription is required.
+
+
 
 
 
