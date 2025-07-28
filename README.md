@@ -3,7 +3,7 @@
 
 📍 Project Overview: The Framework for Insight
 
-This project provides a real-time dashboard that captures both current conditions and 3-day forecast insights for major cities across New Zealand — including Auckland, Wellington, Christchurch, Tauranga, and Dunedin. Powered by live API integration and developed in Power BI, it visualizes key environmental metrics such as:
+This project provides a real-time dashboard that captures both current conditions and 7-day forecast insights for major cities across New Zealand — including Auckland, Wellington, Christchurch, Tauranga, and Dunedin. Powered by live API integration and developed in Power BI, it visualizes key environmental metrics such as:
 
 - Temperature — with dynamic icons that change based on real-time conditions (e.g., fog, rain, cloud)
 
@@ -11,11 +11,11 @@ This project provides a real-time dashboard that captures both current condition
 
 - Air Quality (current) — CO, NO₂, SO₂, O₃, PM10, and PM2.5 levels with color categories indicating pollutant thresholds
 
-- Sunrise & Sunset Times with a 3-day forecast overlay
+- Sunrise & Sunset Times with a 7-day forecast overlay
 
 - Chance of Rain with daily breakdowns across the week
 
-- 3-Day Temperature Forecast Trend — temperature and condition breakdowns for each day
+- 7-Day Temperature Forecast Trend — temperature and condition breakdowns for each day
 
 🧠 **Business Understanding**
 Goal: Deliver a user-friendly dashboard showing live and forecasted weather + air quality for key New Zealand cities.
@@ -62,10 +62,10 @@ Built DAX measures for custom logic across visuals:
 The final result is a single-page interactive dashboard showing:
 
 - KPI cards for current metrics (temperature, humidity, UV index)
-- 3-day forecast visualized using line and column charts
+- 7-day forecast visualized using line and column charts
 - Dynamic weather icons that update with real-time data
 - Color-coded AQI section based on thresholds (e.g., Green → Red)
-- Sunrise & Sunset shown alongside the 3-day forecast to help users understand the timing of daylight in relation to upcoming
+- Sunrise & Sunset shown alongside the 7-day forecast to help users understand the timing of daylight in relation to upcoming
   temperature patterns
 - Slicers to toggle between cities and daily/hourly forecasts
 
@@ -87,10 +87,12 @@ The final result is a single-page interactive dashboard showing:
    thoughts, suggestions and collaboration on this project.
 -  Feel free to download, explore, and adapt it to better understand how real-time data can be modeled and visualized in Power BI.
   
+
 ⚠️ **Disclaimer:**
 
 - This dashboard is intended for visual learning and demonstration purposes only — not for business or operational use.  
-- This dashboard uses WeatherAPI’s free tier, which supports up to 3-day forecasts. For extended forecast capabilities beyond 3 days, a premium API subscription is required.
+- This project currently shows a 7-day forecast while the WeatherAPI free trial is active. Once the trial ends, the forecast will be limited to 3 days as per the standard free plan. For extended forecast capabilities beyond 3 days, a premium API subscription is required.
+
 
 
 
