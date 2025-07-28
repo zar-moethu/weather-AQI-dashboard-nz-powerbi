@@ -90,9 +90,8 @@ The final result is a single-page interactive dashboard showing:
 
 ⚠️ **Disclaimer:**
 
-- This interactive dashboard is intended for visual learning and demonstration purposes only — not for business or operational use.  
-- This interactive dashboard currently shows a 7-day forecast while the WeatherAPI free trial is active. Once the trial ends, the forecast will be limited to 3 days as per the standard free plan. For extended forecast capabilities beyond 3 days, a premium API subscription is required.
-
+- This interactive dashboard is intended for visual learning and demonstration purposes only, not for business or operational use.  
+- This dashboard currently shows a 7-day forecast during the WeatherAPI free trial. However, depending on when it is downloaded, the trial may have ended, and the forecast will be limited to 3 days under the free plan. A premium subscription is required for extended forecasts.
 
 
 
